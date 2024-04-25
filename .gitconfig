@@ -22,3 +22,5 @@
 	cmd = meld $LOCAL $REMOTE
 [init]
 	defaultBranch = main
+[credential]
+	helper = cache
