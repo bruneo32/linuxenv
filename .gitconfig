@@ -1,0 +1,24 @@
+[user]
+#	name = 
+#	email = 
+[github]
+#	user = 
+#	token = 
+[alias]
+	log1 = log --oneline
+	fap = fetch --all -p
+	co = checkout
+	st = status -s
+	graph = log --all --decorate --oneline --graph
+[core]
+	editor = nano
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[diff]
+	tool = meld
+[difftool "diffmerge"]
+	cmd = meld $LOCAL $REMOTE
+[init]
+	defaultBranch = main
