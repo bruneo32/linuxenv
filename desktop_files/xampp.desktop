@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=xampp
+Comment=Apache distribution containing MariaDB PHP and Perl
+Exec=/opt/lampp/manager-linux-x64.run
+Icon=xampp
+Type=Application
+Categories=GNOME;GTK;Utility;System;
+StartupNotify=true
+Keywords=linux;apache;mysql;perl;php;lampp;
+Actions=run-as-root
+
+[Desktop Action run-as-root]
+Name=Run as root
+Exec=/bin/sh -c "pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY /opt/lampp/manager-linux-x64.run"
+#TargetEnvironment=Unity
