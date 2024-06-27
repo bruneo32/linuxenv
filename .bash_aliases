@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Aliases
+alias sudo='sudo '	# This allows sudo to run aliases
 alias clear='clear && fcow -r 2>/dev/null'
 alias ll='ls -hAlF --color=auto'
 alias calc='bc -l <<<'
