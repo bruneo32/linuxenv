@@ -5,6 +5,7 @@ alias sudo='sudo '	# This allows sudo to run aliases
 alias clear='clear && fcow -r 2>/dev/null'
 alias ll='ls -hAlF --color=auto'
 alias calc='bc -l <<<'
+alias deb_update='sudo apt update && sudo apt list --upgradable'
 
 # Functions
 mkcd() { mkdir -p "$1" && cd "$1" ;}
