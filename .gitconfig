@@ -2,9 +2,9 @@
 #	name = 
 #	email = 
 [url "https://<username>:<token>@github.com/"]
-    insteadOf = https://github.com/
+	insteadOf = https://github.com/
 [url "https://<username>:<token>@gitlab.com/"]
-    insteadOf = https://gitlab.com/
+	insteadOf = https://gitlab.com/
 [alias]
 	log1 = log --oneline
 	fap = fetch --all -p
