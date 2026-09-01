@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# Replace this process with tmux (if interactive)
+if [[ $- == *i* && -z "$TMUX" ]]; then
+	exec tmux
+fi
+# Start tty hbar nicely
+nice -n5 tty_hbar &
+
 # Aliases
 alias sudo='sudo '	# This allows sudo to run aliases
 alias clear='clear && fcow -r 2>/dev/null'
